@@ -1,0 +1,10 @@
+{
+	"http_port": 8443,
+	"http_max_connections": 3,
+	"ssl_enable": true,
+	"ssl_keystore": "../httpskeys.jks",
+	"ssl_passphrase": "passsswd",
+	"oracle_tns": "(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=oracwinplus-scan.hefame.es)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=WINPLUS)))",
+	"oracle_user": "admin",
+	"oracle_pass": "whatever",
+}
